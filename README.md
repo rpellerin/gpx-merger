@@ -3,7 +3,13 @@ Merge GPX files into a single one.
 
 Take multitple GPX files (routes, waypoints, tracks) and merge them into a single one. For example, useful when you hit GMaps MyMaps layer number restriction and have many little routes.
 
-`source .env/bin/activate ; pip install -r requirements.txt`
+```bash
+sudo apt install python3-pip
+pip3 install virtualenv
+virtualenv -p /usr/bin/python3 .env
+source .env/bin/activate
+pip3 install -r requirements.txt
+```
 
 To launch:
 
