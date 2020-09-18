@@ -1,5 +1,8 @@
 # gpx-merger
-Merge GPX files into a single one.
+
+Merge GPX files into a single one. It is not needed to create a heatmap though. If you want to create a heatmap, scroll down to the bottom of this README.
+
+## Merging GPX files
 
 Take multitple GPX files (routes, waypoints, tracks) and merge them into a single one. For example, useful when you hit GMaps MyMaps layer number restriction and have many little routes.
 
@@ -23,4 +26,6 @@ For example:
 
 `python3 GPXMerger.py -d data/Route66AtlasWaypoints_GPX_Format > merged/route_66.gpx`
 
-To create a heatmap, use [JOSM](https://josm.openstreetmap.de/).
+## Heatmaps
+
+To create a heatmap, use [JOSM](https://josm.openstreetmap.de/), or better, this website: [https://erik.github.io/derive/](https://erik.github.io/derive/).
